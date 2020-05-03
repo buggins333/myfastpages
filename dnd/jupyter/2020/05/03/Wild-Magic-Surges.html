@@ -185,9 +185,9 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="A-Comparison-of-Two-Homebrew-Methods">A Comparison of Two Homebrew Methods<a class="anchor-link" href="#A-Comparison-of-Two-Homebrew-Methods"> </a></h3><p>In order to make wild magic surges a more frequent occurence, we can tweak the rules to trigger them. Two such tweaks are:</p>
 <ol>
-<li><p>he "Increasing Count" method. Start as usual with a Wild Magic Surge triggering when the player rolls a 1 on their Surge roll. Every time a Surge <em>does not occur</em>, increase the D.C. for avoiding the Surge by one: 1 $\rightarrow$ 2 $\rightarrow$ 3, etc. When a Surge <em>does</em> occur, reset the D.C. to 1.</p>
+<li><p>The "Increasing Count" method. Start as usual with a Wild Magic Surge triggering when the player rolls a <code>1</code> on their Surge roll. Every time a Surge <em>does not occur</em>, increase the D.C. for avoiding the Surge by one: <code>1</code> $\rightarrow$ <code>2</code> $\rightarrow$ <code>3</code>, etc. When a Surge <em>does</em> occur, reset the D.C. to 1.</p>
 </li>
-<li><p>The "Decreasing Dice" method. Start as usual with a Wild Magic Surge triggering when the player rolls a 1 on their d20 Surge roll. Every time a surge <em>does not occur</em>, decrease the size of the dice by one: d20 $\rightarrow$ d12 $\rightarrow$ d10, etc. When a Surge <em>does</em> occur, reset the dice to a d20. Here we stop at a d4 and just make the player continue rolling a d4 until they do get a Surge, but you could continue down to a coin flip, and you could even continue from a coin flip to an automatic Surge (rolling a 1 on a "d1").</p>
+<li><p>The "Decreasing Dice" method. Start as usual with a Wild Magic Surge triggering when the player rolls a <code>1</code> on their <code>d20</code> Surge roll. Every time a surge <em>does not occur</em>, decrease the size of the dice by one: <code>d20</code> $\rightarrow$ <code>d12</code> $\rightarrow$ <code>d10</code>, etc. When a Surge <em>does</em> occur, reset the dice to a <code>d20</code>. Here we stop at a <code>d4</code> and just make the player continue rolling a <code>d4</code> until they do get a Surge, but you could continue down to a coin flip (<code>d2</code>), and you could even continue from a coin flip to an automatic Surge (rolling a <code>1</code> on a "<code>d1</code>").</p>
 </li>
 </ol>
 <p>Below we calculate the probabilities of triggering a Wild Magic Surge under both of the above systems.</p>
@@ -218,7 +218,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>First, we build a list of probabilities for <em>not</em> rolling a 1 on each of the dice: d20, d12, d10, ..., d4</p>
+<p>First, we build a list of probabilities for <em>not</em> rolling a <code>1</code> on each of the dice: <code>d20</code>, <code>d12</code>, <code>d10</code>, ..., <code>d4</code></p>
 
 </div>
 </div>
@@ -242,7 +242,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We also build a list of probabilities for <em>not</em> rolling (1), (1/2), (1/2/3), etc. on a d20:</p>
+<p>We also build a list of probabilities for <em>not</em> rolling (<code>1</code>), (<code>1</code>/<code>2</code>), (<code>1</code>/<code>2</code>/<code>3</code>), etc. on a <code>d20</code>:</p>
 
 </div>
 </div>
